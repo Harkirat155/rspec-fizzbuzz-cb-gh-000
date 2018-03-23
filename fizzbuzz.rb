@@ -1,13 +1,13 @@
 def fizzbuzz(x)
   x = x.to_i
   if x % 3 == 0
-    puts "Fizz"
+    return "Fizz"
     if x % 5 == 0
-      puts "FizzBuzz"
+      return "FizzBuzz"
     end
   elsif x % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   else
-    puts nil
+    return nil
   end
 end
